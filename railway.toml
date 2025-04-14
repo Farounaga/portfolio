@@ -1,0 +1,4 @@
+[build]
+install = "npm install"
+build = "npm run build"
+start = "npx serve dist -l $PORT"
