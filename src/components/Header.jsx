@@ -4,8 +4,8 @@ import gsap from 'gsap';
 
 const Header = () => {
   const containerRef = useRef(null);
-  const symbols = ['0', '1', 'CODE', 'DATA', 'HACK'];
-  const gridSize = { cols: 40, rows: 20 };
+  const symbols = ['0', '1'];
+  const gridSize = { cols: 100, rows: 2 };
 
   useEffect(() => {
     const container = containerRef.current;
